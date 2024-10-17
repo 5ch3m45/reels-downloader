@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const cheerio = require('cheerio')
 const querystring = require('querystring')
 
 const getPostIdFromUrl = (postUrl) => {
